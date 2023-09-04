@@ -1,0 +1,35 @@
+* sudo apt update  == We have to update the package repository before installing the latest software to verify that we are downloading the most recent versions. To get the most recent package lists
+* sudo apt upgrade == we can download and update the package without deleting anything that was previously installed.
+
+* sudo add [name] == Adds another root user. Also necessary to view sensitive files such as ETSI Shadow File (This is a text file that contains information about the systems, users and passwords.)
+(short form of concatenate)  * cat == This is simply a way that we can display the contents of a file without the need to actually open that file in a text editor.
+only 'cat' command will show permission denied; *Command:  sudo cat/etc/shadow  == By this we can see the whole shadow file of our system.
+
+*clear == Can clear up the terminal.
+
+* sudo su == switches to the root user. su short forms as Switch User. In the root user, we don't have to use sudo command anymore. 
+
+
+If you're trying to run a command from an account such as the Default Kali account or any other account you've created and you're getting some sort of strange error message or you're seeing an error based around permissions or denial of access, the first thing you should try is to run the sudo command in front of that.
+
+* pwd == That's short for the print working directory, which will basically print or in other words, display the current directory, which we are under.
+*cd == We use the command code, which is short for change directory. If you're trying to run a command in Windows outside of the target directory and you haven't specified.
+*ls == that is going to list the contents of the current directory
+
+* mkdir [name of directory] == Make a new directory. 
+* rmdir [name of directory] == Removes the created directory.
+
+* locate [name of file] == Locates directory
+
+* man ls = Lists the manual for the commands.
+
+* ls -s == File size listed.
+
+Any file that starts with a '.' (period) is a hidden file. 
+Anything that begins with a 'd' is a directory.
+Anything that begins with a '-' is a file. 
+File beginning with a 'l' is called SIM links; they forward to another location on the system.
+
+'r' stands for Read permission, 'w' stands for Write permission, and 'x' stands for Execute permission.
+
+* chmod 777 [file name] == Gives full permission to read, write and execute.
