@@ -1,0 +1,17 @@
+* cat> [file name].txt == can write content in the file
+* cat [file name].txt == shows the text content
+
+* cat[file name1].txt [file name2].txt [file name3].txt == creating multiple text files at once.
+
+* nano == is a text editor
+* nano --version == find out which version is available in the system
+* nano nano.txt == opens the text editor
+
+* vi == is another popular text editor
+* cat vi.txt == write content on vi file
+
+
+* apt install == to install any packages 
+
+*gedit == popular Linux tool
+*sudo apt install gedit == installing the tool
