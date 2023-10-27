@@ -1,0 +1,16 @@
+To do user emuneration on Kali:
+Step 01: Type 'theHarvester' on your kali terminal => Enter
+Step 02: Type 'theHarvester --help' to know about your harvester tool => Enter
+Step 03: Type 'theHarvester -d (domanin name, exp: gmail.com) -l 250 -b google => Enter
+
+To install modules:
+Step 01: Type 'marketplace refresh' => Enter
+Step 02: Type 'marketplace install all' => Enter
+
+Passively get intel in Kali Linux: 
+Step 01: After installing modules, Type 'modules load hackertarget' => Enter
+Step 02: Type 'options'
+Step 03: Type 'options set source (domain name, exp: gmail.com) 
+Step 04: Type 'info'
+Step 05: Type 'run'
+Step 06: Type 'show hosts'
